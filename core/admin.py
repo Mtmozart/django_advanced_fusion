@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import JobTitle, Service, Employee
+from .models import JobTitle, Service, Employee, Resources
 @admin.register(JobTitle)
 class JobTitleAdmin(admin.ModelAdmin):
     list_display = ('job_title', 'active', 'modified')
@@ -10,5 +10,10 @@ class ServiceAdmin(admin.ModelAdmin):
 @admin.register(Employee)
 class Employee(admin.ModelAdmin):
     list_display = ('name', 'job_title', 'active','modified')
+@admin.register(Resources)
+class Resources(admin.ModelAdmin):
+    list_display = ('title', 'description', 'icon')
+
+
 
 
