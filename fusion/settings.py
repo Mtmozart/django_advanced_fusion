@@ -129,7 +129,7 @@ USE_TZ = True
 STATIC_URL = 'static/'
 MEDIA_URL = 'media/'
 STATIC_ROOT = Path(BASE_DIR, 'staticfiles')
-MEDIA_ROOT =  Path(BASE_DIR, 'media')
+MEDIA_ROOT = Path(BASE_DIR, 'media')
 
 #E-mail test console
 
