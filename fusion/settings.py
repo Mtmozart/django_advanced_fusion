@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
+import os
 #Para poder usar o Banco de Dados
 import dj_database_url
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -126,10 +127,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = 'static/'
-MEDIA_URL = 'media/'
-STATIC_ROOT = Path(BASE_DIR, 'staticfiles/')
-MEDIA_ROOT = Path(BASE_DIR, 'media/')
+STATIC_URL = '/static/'
+MEDIA_URL = '/media/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 #E-mail test console
 
