@@ -13,3 +13,15 @@ Em vez de utilizar views baseadas em funções, o projeto emprega class-based vi
 Os templates do Django são usados para a criação da interface do usuário do projeto. Os templates permitem a separação clara entre a lógica de apresentação e o código Python subjacente, permitindo a construção de páginas da web dinâmicas e interativas.
 ### Formulários:
 O projeto faz uso de formulários do Django para coletar e validar dados inseridos pelos usuários. Os formulários fornecem uma maneira conveniente de criar e processar formulários web, garantindo a integridade dos dados recebidos.
+
+### Site 
+<div style="display: inline_block"><br>
+<img align="center" alt="Matheus-Mozart" width="500" height="1000" style="border-radius:50px;" src="https://cdn.discordapp.com/attachments/467195714745663498/1112760832263196692/Fusion_-_Pagina_completa.png"><br>
+<br><br>
+  
+ <img align="center" alt="Matheus-Mozart" width="800" height="800" style="border-radius:50px;" src="https://cdn.discordapp.com/attachments/467195714745663498/1112760831642443867/Adicionar_conteudo_do_banco_de_dados.png">
+ <br>
+  
+ <img align="center" alt="Matheus-Mozart" height="800" style="border-radius:50px;" src="https://cdn.discordapp.com/attachments/467195714745663498/1112760831860551710/Site_de_administracao_do_Django.png">
+  <br>
+</div>
