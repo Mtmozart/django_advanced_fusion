@@ -40,9 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'core',
-    #apagar caso não seja necessário
-    'django_adminlte',
-    'django_adminlte_theme',
+
 ]
 
 MIDDLEWARE = [
@@ -88,11 +86,13 @@ DATABASES = {
         'HOST': 'localhost',
         'PORT': '5432',
     }
-}"""
+}
+"""
 
 DATABASES = {
     'default': dj_database_url.config()
 }
+
 
 
 # Password validation
@@ -130,7 +130,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
-MEDIA_URL = '/media/'
+MEDIA_URL = 'media/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 STATICFILES_DIRS = [
