@@ -11,7 +11,7 @@ class IndexView(FormView):
 
     def get_context_data(self, **kwargs):
         #recuperação de contexto
-        context = super(IndexView, self).get_context_data(*kwargs)
+        context = super(IndexView, self).get_context_data(**kwargs)
         #adcionar novos contextos
         context['services'] = Service.objects.order_by('?').all()
         context['employee'] = Employee.objects.order_by('?').all()
